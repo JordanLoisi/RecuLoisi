@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Resource\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\RecuPPSeminario2023.Datos\RecuPPSeminario2023.Datos.csproj" />
+    <ProjectReference Include="..\RecuPPSeminario2023.Entidades\RecuPPSeminario2023.Entidades.csproj" />
+    <ProjectReference Include="..\RecuPPSeminario2023.Servicios\RecuPPSeminario2023.Servicios.csproj" />
+  </ItemGroup>
+
+</Project>
